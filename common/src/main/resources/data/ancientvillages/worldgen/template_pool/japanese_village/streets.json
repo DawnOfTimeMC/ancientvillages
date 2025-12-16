@@ -1,0 +1,92 @@
+{
+    "name": "ancientvillages:japanese_village/streets",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:empty_pool_element"
+        }
+    },
+    {
+        "weight": 1,    
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "location": "ancientvillages:japanese_village/streets/curved_gravel"
+        }
+    },
+    {
+        "weight": 1,    
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "location": "ancientvillages:japanese_village/streets/shrine_path"
+        }
+    },
+    {
+        "weight": 1,    
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "location": "ancientvillages:japanese_village/streets/straight_gravel"
+        }
+    },
+    {
+        "weight": 1,    
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "location": "ancientvillages:japanese_village/streets/straight_gravel2"
+        }
+    },
+    {
+        "weight": 1,    
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "processors": "minecraft:empty",
+            "projection": "terrain_matching",
+            "location": "ancientvillages:japanese_village/streets/repaired_street"
+        }
+    },
+    {
+        "weight": 1,    
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "location": "ancientvillages:japanese_village/streets/bridge_street"
+        }
+    },
+    {
+        "weight": 1,    
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "processors": "minecraft:empty",
+            "projection": "terrain_matching",
+            "location": "ancientvillages:japanese_village/streets/straight_gravel3"
+        }
+    },
+    {
+        "weight": 1,    
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "processors": "minecraft:empty",
+            "projection": "terrain_matching",
+            "location": "ancientvillages:japanese_village/streets/straight_gravel4"
+        }
+    },
+    {
+        "weight": 1,    
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "processors": "minecraft:empty",
+            "projection": "terrain_matching",
+            "location": "ancientvillages:japanese_village/streets/fallen_tree"
+        }
+    }
+  ]
+}

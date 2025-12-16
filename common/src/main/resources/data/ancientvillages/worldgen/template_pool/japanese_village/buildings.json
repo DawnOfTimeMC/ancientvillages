@@ -1,0 +1,38 @@
+{
+    "name": "ancientvillages:japanese_village/buildings",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:empty_pool_element"
+        }
+    },
+    {
+        "weight": 2,    
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "location": "ancientvillages:japanese_village/buildings/small_japanese_house"
+        }
+    },
+    {
+        "weight": 2,    
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "location": "ancientvillages:japanese_village/buildings/small_japanese_house2"
+        }
+    },
+    {
+        "weight": 2,    
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "location": "ancientvillages:japanese_village/buildings/small_japanese_house3"
+        }
+    }
+  ]
+}
