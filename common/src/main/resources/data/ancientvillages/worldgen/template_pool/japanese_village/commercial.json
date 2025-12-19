@@ -1,5 +1,5 @@
 {
-    "name": "ancientvillages:japanese_village/military",
+    "name": "ancientvillages:japanese_village/commercial",
     "fallback": "minecraft:empty",
     "elements": [{
         "weight": 1,
@@ -13,7 +13,7 @@
             "element_type": "minecraft:single_pool_element",
             "processors": "minecraft:empty",
             "projection": "rigid",
-            "location": "ancientvillages:japanese_village/military/training_camp"
+            "location": "ancientvillages:japanese_village/commercial/shop"
         }
     }
   ]
