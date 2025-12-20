@@ -15,6 +15,15 @@
             "projection": "rigid",
             "location": "ancientvillages:japanese_village/military/training_camp"
         }
-    }
+    },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "location": "ancientvillages:japanese_village/military/forge"
+            }
+        }
   ]
 }

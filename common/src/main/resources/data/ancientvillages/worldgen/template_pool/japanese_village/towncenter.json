@@ -24,6 +24,15 @@
             "projection": "rigid",
             "location": "ancientvillages:japanese_village/towncenter/rice_field"
         }
-    }
+    },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "location": "ancientvillages:japanese_village/towncenter/rice_farm"
+            }
+        }
   ]
 }
