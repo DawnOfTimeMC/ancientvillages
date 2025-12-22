@@ -1,5 +1,5 @@
 {
-    "name": "ancientvillages:japanese_village/agriculture",
+    "name": "ancientvillages:japanese_village/golems",
     "fallback": "minecraft:empty",
     "elements": [{
         "weight": 1,
@@ -13,7 +13,7 @@
             "element_type": "minecraft:single_pool_element",
             "processors": "minecraft:empty",
             "projection": "rigid",
-            "location": "ancientvillages:japanese_village/agriculture/granary"
+            "location": "ancientvillages:japanese_village/golems/golem_workshop"
         }
     }
   ]

@@ -1,0 +1,9 @@
+{
+  "values": [
+    "ancientvillages:golems/tick_ancient_golem",
+    "ancientvillages:golems/tick_young_golem",
+    "ancientvillages:tick",
+    "ancientvillages:sentinel_golems/tick_handler",
+    "ancientvillages:sentinel_golems/idle_particles"
+  ]
+}

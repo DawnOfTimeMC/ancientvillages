@@ -1,0 +1,1 @@
+summon minecraft:iron_golem ~ ~1 ~ {Tags:["young_golem"],PersistenceRequired:1b,Health:100.0f,Attributes:[{Name:"minecraft:generic.movement_speed",Base:0.4d},{Name:"minecraft:generic.attack_damage",Base:0.12d}]}

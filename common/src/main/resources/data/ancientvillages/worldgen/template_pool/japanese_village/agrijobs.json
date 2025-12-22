@@ -24,6 +24,33 @@
                 "projection": "rigid",
                 "location": "ancientvillages:japanese_village/agrijobs/pig_farm"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "location": "ancientvillages:japanese_village/agrijobs/pig_field"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "location": "ancientvillages:japanese_village/agrijobs/cow_field"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "location": "ancientvillages:japanese_village/agrijobs/granary"
+            }
         }
   ]
 }
