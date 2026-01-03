@@ -1,0 +1,21 @@
+{
+    "name": "ancientvillages:streets/poor",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:empty_pool_element"
+        }
+    },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "projection": "terrain_matching",
+                "location": "ancientvillages:streets/poor/i_street1"
+            }
+        }
+    ]
+}

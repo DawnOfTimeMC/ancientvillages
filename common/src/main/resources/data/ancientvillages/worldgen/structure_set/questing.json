@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "ancientvillages:lost_forge",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 35,
+    "separation": 9,
+    "spread_type": "triangular",
+    "salt": 79220
+  }
+}

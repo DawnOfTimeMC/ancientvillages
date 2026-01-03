@@ -1,0 +1,27 @@
+{
+  "structures": [
+    {
+      "structure": "ancientvillages:agricultural",
+      "weight": 1
+    },
+      {
+          "structure": "ancientvillages:industrial",
+          "weight": 1
+      },
+      {
+          "structure": "ancientvillages:military",
+          "weight": 1
+      },
+      {
+          "structure": "ancientvillages:commercial",
+          "weight": 1
+      }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 70,
+    "separation": 9,
+    "spread_type": "triangular",
+    "salt": 62179220
+  }
+}
