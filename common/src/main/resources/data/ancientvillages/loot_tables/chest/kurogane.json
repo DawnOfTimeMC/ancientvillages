@@ -1,0 +1,70 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {"type":"minecraft:item","name":"dawnoftimebuilder:stone_bricks_chimney","functions":[{"function":"minecraft:set_count","count":2}]}
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {"type":"minecraft:item","name":"dawnoftimebuilder:thatch_bamboo","functions":[{"function":"minecraft:set_count","count":45}]}
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {"type":"minecraft:item","name":"dawnoftimebuilder:gray_roof_tiles","functions":[{"function":"minecraft:set_count","count":47}]}
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {"type":"minecraft:item","name":"dawnoftimebuilder:white_wattle_and_daub","functions":[{"function":"minecraft:set_count","count":50}]}
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {"type":"minecraft:item","name":"minecraft:blast_furnace","functions":[{"function":"minecraft:set_count","count":2}]}
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {"type":"minecraft:item","name":"minecraft:cobblestone","functions":[{"function":"minecraft:set_count","count":30}]}
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {"type":"minecraft:item","name":"minecraft:spruce_planks","functions":[{"function":"minecraft:set_count","count":40}]}
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {"type":"minecraft:item","name":"dawnoftimebuilder:spruce_boards","functions":[{"function":"minecraft:set_count","count":52}]}
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {"type":"minecraft:item","name":"minecraft:gravel","functions":[{"function":"minecraft:set_count","count":15}]}
+            ]
+        },
+        {
+            "rolls": 4,
+            "entries": [
+                {"type":"minecraft:item","name":"minecraft:stick","weight":1,"functions":[{"function":"minecraft:set_count","count":{"min":1,"max":8}}]},
+                {"type":"minecraft:item","name":"minecraft:chain","weight":1,"functions":[{"function":"minecraft:set_count","count":{"min":1,"max":4}}]},
+                {"type":"minecraft:item","name":"minecraft:stone_pickaxe","weight":1,"functions":[{"function":"minecraft:set_damage","damage":{"min":55,"max":60}}]},
+                {"type":"minecraft:item","name":"minecraft:stone_axe","weight":1,"functions":[{"function":"minecraft:set_damage","damage":{"min":55,"max":60}}]},
+                {"type":"minecraft:item","name":"minecraft:emerald","weight":1,"functions":[{"function":"minecraft:set_count","count":{"min":1,"max":4}}]},
+                {"type":"minecraft:item","name":"minecraft:bamboo","weight":1,"functions":[{"function":"minecraft:set_count","count":{"min":1,"max":10}}]}
+            ]
+        }
+    ]
+}
