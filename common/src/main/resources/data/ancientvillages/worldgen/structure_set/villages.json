@@ -15,6 +15,18 @@
       {
           "structure": "ancientvillages:commercial",
           "weight": 1
+      },
+      {
+          "structure": "ancientvillages:lost_forge",
+          "weight": 1
+      },
+      {
+          "structure": "ancientvillages:ruined_village",
+          "weight": 1
+      },
+      {
+          "structure": "ancientvillages:silent_cemetery",
+          "weight": 1
       }
   ],
   "placement": {

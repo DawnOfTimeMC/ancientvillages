@@ -4,7 +4,7 @@
   "step": "surface_structures",
   "terrain_adaptation": "beard_thin",
   "spawn_overrides": {},
-  "start_pool": "ancientvillages:questing/lost_forge",
+  "start_pool": "ancientvillages:questing/ruined_village",
   "size": 7,
   "start_height": {
     "absolute": 0

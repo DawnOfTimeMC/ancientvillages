@@ -14,7 +14,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
-                "location": "ancientvillages:industrial/jobs/granary"
+                "location": "ancientvillages:industrial/jobs/toolsmith"
             }
         },
         {
@@ -24,15 +24,6 @@
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "location": "ancientvillages:industrial/jobs/small_tower"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "processors": "minecraft:empty",
-                "projection": "rigid",
-                "location": "ancientvillages:industrial/jobs/toolsmith"
             }
         }
     ]

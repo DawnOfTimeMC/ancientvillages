@@ -1,5 +1,5 @@
 {
-    "name": "ancientvillages:military/quests",
+    "name": "ancientvillages:questing",
     "fallback": "minecraft:empty",
     "elements": [
         {
@@ -14,7 +14,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
-                "location": "ancientvillages:military/quests/tetsuro"
+                "location": "ancientvillages:questing/silent_cemetery"
             }
         }
     ]
