@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "get_report": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:paper",
+            "nbt": "{display:{Name:'{\"text\":\"Military Cemetery Location\",\"color\":\"yellow\",\"italic\":false}'}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ancientvillages:give_silent_cemetery_map"
+  }
+}

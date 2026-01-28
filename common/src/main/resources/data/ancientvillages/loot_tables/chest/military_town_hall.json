@@ -1,0 +1,194 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 6,
+            "entries": [
+                { "type": "minecraft:item", "name": "minecraft:grindstone", "weight": 1 },
+                { "type": "minecraft:item", "name": "minecraft:crafting_table", "weight": 1 },
+                { "type": "minecraft:item", "name": "minecraft:fletching_table", "weight": 1 },
+
+                { "type": "minecraft:item", "name": "minecraft:decorated_pot", "weight": 1 },
+                { "type": "minecraft:item", "name": "minecraft:flower_pot", "weight": 1 },
+
+                { "type": "minecraft:item", "name": "minecraft:arrow", "weight": 2 },
+                { "type": "minecraft:item", "name": "minecraft:spectral_arrow", "weight": 1 },
+
+                { "type": "minecraft:item", "name": "minecraft:chain", "weight": 1 },
+                { "type": "minecraft:item", "name": "minecraft:shield", "weight": 1 },
+                { "type": "minecraft:item", "name": "minecraft:bow", "weight": 1 },
+
+                { "type": "minecraft:item", "name": "minecraft:apple", "weight": 1 },
+                { "type": "minecraft:item", "name": "minecraft:iron_nugget", "weight": 1 },
+
+                { "type": "minecraft:item", "name": "armoroftheages:bamboo_hat", "weight": 1 }
+            ]
+        },
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_sword",
+                    "weight": 1,
+                    "functions": [
+                        { "function": "minecraft:set_damage", "damage": 0.4 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_axe",
+                    "weight": 1,
+                    "functions": [
+                        { "function": "minecraft:set_damage", "damage": 0.4 }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_helmet",
+                    "weight": 1,
+                    "functions": [
+                        { "function": "minecraft:set_damage", "damage": 0.6 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        { "function": "minecraft:set_damage", "damage": 0.6 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_leggings",
+                    "weight": 1,
+                    "functions": [
+                        { "function": "minecraft:set_damage", "damage": 0.6 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_boots",
+                    "weight": 1,
+                    "functions": [
+                        { "function": "minecraft:set_damage", "damage": 0.6 }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_helmet",
+                    "weight": 1,
+                    "functions": [
+                        { "function": "minecraft:set_damage", "damage": 0.6 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        { "function": "minecraft:set_damage", "damage": 0.6 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_leggings",
+                    "weight": 1,
+                    "functions": [
+                        { "function": "minecraft:set_damage", "damage": 0.6 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_boots",
+                    "weight": 1,
+                    "functions": [
+                        { "function": "minecraft:set_damage", "damage": 0.6 }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "armoroftheages:japanese_light_armor_head",
+                    "weight": 1,
+                    "functions": [
+                        { "function": "minecraft:set_damage", "damage": 0.6 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "armoroftheages:japanese_light_armor_chest",
+                    "weight": 1,
+                    "functions": [
+                        { "function": "minecraft:set_damage", "damage": 0.6 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "armoroftheages:japanese_light_armor_legs",
+                    "weight": 1,
+                    "functions": [
+                        { "function": "minecraft:set_damage", "damage": 0.6 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "armoroftheages:japanese_light_armor_feet",
+                    "weight": 1,
+                    "functions": [
+                        { "function": "minecraft:set_damage", "damage": 0.6 }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "minecraft:exploration_map",
+                            "destination": "ancientvillages:ruined_village_map",
+                            "decoration": "red_x",
+                            "zoom": 1,
+                            "skip_existing_chunks": false
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Scout notes",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "During a scouting patrol near a neighboring settlement, I came across a village that appears to have been abandoned. Among the ruins, I identified stored military supplies. I will report these findings to Hoshin and await his decision on whether a garrison should be dispatched to secure the location.",
+                                    "italic": true,
+                                    "color": "gold"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:unbreaking": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{HideFlags:1}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

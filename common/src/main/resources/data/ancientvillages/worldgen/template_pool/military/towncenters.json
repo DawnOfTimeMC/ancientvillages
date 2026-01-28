@@ -14,7 +14,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
-                "location": "ancientvillages:military/towncenters/round_about_mili"
+                "location": "ancientvillages:military/towncenters/fortified_place"
             }
         }
     ]

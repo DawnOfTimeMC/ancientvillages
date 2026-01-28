@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "ancientvillages:silent_cemetery_map",
+              "decoration": "red_x",
+              "zoom": 1,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                  "text": "Military Cemetery Map",
+                  "color": "yellow",
+                  "italic": false
+              }
+            },
+              {
+                  "function": "minecraft:set_lore",
+                  "lore": [
+                      {
+                          "text": "Set apart from the village, a quiet place where fallen soldiers rest, allowing families to remember them in peace.",
+                          "color": "gold",
+                          "italic": true
+                      }
+                  ]
+              },
+              {
+                  "function": "minecraft:set_enchantments",
+                  "enchantments": {
+                      "minecraft:unbreaking": 1
+                  }
+              },
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{HideFlags:1}"
+              }
+          ]
+        }
+      ]
+    }
+  ]
+}

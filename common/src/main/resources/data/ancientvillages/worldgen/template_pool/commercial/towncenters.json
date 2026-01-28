@@ -14,7 +14,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
-                "location": "ancientvillages:commercial/towncenters/round_about_comm"
+                "location": "ancientvillages:commercial/towncenters/blacksmith_temple"
             }
         }
     ]

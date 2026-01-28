@@ -32,15 +32,6 @@
                 "element_type": "minecraft:single_pool_element",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
-                "location": "ancientvillages:military/jobs/training_camp"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "processors": "minecraft:empty",
-                "projection": "rigid",
                 "location": "ancientvillages:military/jobs/golem_workshop"
             }
         }
