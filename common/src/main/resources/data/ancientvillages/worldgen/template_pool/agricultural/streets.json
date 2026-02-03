@@ -1,0 +1,57 @@
+{
+    "name": "ancientvillages:agricultural/streets",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "projection": "terrain_matching",
+                "location": "ancientvillages:agricultural/streets/street1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "projection": "terrain_matching",
+                "location": "ancientvillages:agricultural/streets/street2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "projection": "terrain_matching",
+                "location": "ancientvillages:agricultural/streets/street3"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "projection": "terrain_matching",
+                "location": "ancientvillages:agricultural/streets/street4"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "projection": "terrain_matching",
+                "location": "ancientvillages:agricultural/streets/street5"
+            }
+        }
+    ]
+}

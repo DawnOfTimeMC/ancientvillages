@@ -1,0 +1,9 @@
+{
+    "values": [
+        "minecraft:taiga",
+        {
+            "id": "biomesoplenty:maple_woods",
+            "required": false
+        }
+    ]
+}

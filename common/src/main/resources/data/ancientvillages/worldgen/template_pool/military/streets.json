@@ -1,5 +1,5 @@
 {
-    "name": "ancientvillages:streets/rich",
+    "name": "ancientvillages:military/streets",
     "fallback": "minecraft:empty",
     "elements": [
         {
@@ -13,8 +13,8 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "processors": "minecraft:empty",
-                "projection": "rigid",
-                "location": "ancientvillages:streets/rich/bridge_street"
+                "projection": "terrain_matching",
+                "location": "ancientvillages:military/streets/street1"
             }
         },
         {
@@ -23,7 +23,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "processors": "minecraft:empty",
                 "projection": "terrain_matching",
-                "location": "ancientvillages:streets/rich/curved_gravel"
+                "location": "ancientvillages:military/streets/street2"
             }
         },
         {
@@ -32,7 +32,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "processors": "minecraft:empty",
                 "projection": "terrain_matching",
-                "location": "ancientvillages:streets/rich/fallen_tree"
+                "location": "ancientvillages:military/streets/street3"
             }
         },
         {
@@ -41,16 +41,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "processors": "minecraft:empty",
                 "projection": "terrain_matching",
-                "location": "ancientvillages:streets/rich/straight_gravel"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "processors": "minecraft:empty",
-                "projection": "rigid",
-                "location": "ancientvillages:streets/rich/straight_gravel2"
+                "location": "ancientvillages:military/streets/street4"
             }
         },
         {
@@ -59,7 +50,16 @@
                 "element_type": "minecraft:single_pool_element",
                 "processors": "minecraft:empty",
                 "projection": "terrain_matching",
-                "location": "ancientvillages:streets/rich/repaired_street"
+                "location": "ancientvillages:military/streets/street5"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "projection": "terrain_matching",
+                "location": "ancientvillages:military/streets/street6"
             }
         }
     ]
